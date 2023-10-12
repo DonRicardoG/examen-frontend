@@ -1,0 +1,123 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mainTitle {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #ffffffce;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.mainTitle h1 {
+  background-color: #1a1e29;
+  font-size: 28px;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #ffffff;
+}
+
+.lodingContainer {
+  height: 100vh;
+  width: 390px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #1a1e29;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* --------------------------- */
+
+@media (min-width: 500px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .mainTitle {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #ffffffce;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+  }
+
+  .mainTitle h1 {
+    background-color: #1a1e29;
+    font-size: 28px;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #ffffff;
+  }
+
+  .contactsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: center;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .lodingContainer {
+    height: 100vh;
+    width: 390px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #1a1e29;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

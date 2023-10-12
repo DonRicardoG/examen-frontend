@@ -1,0 +1,20 @@
+.constructionContainer {
+  background-image: url("../../assets/images/UnderConstruction.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 390px;
+}
+
+@media (min-width: 500px) {
+  .constructionContainer {
+    background-image: url("../../assets/images/UnderConstruction.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 390px;
+    margin: auto;
+  }
+}
