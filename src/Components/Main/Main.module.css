@@ -4,6 +4,16 @@
   height: 100%;
 }
 
+.contactsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  justify-content: center;
+  overflow: hidden;
+  overflow-y: auto;
+  gap: 2rem;
+}
+
 .mainTitle {
   display: flex;
   position: sticky;

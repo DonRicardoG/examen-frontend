@@ -1,11 +1,18 @@
 .cardContainer {
   display: flex;
-  width: 380px;
+  width: 330px;
   height: 120px;
+  margin: auto;
   padding: 1.5rem;
   gap: 1.5rem;
   align-items: center;
   transition: 0.2s border-left ease;
+  background: rgba(1, 195, 142, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .cardContainer:hover {
@@ -55,10 +62,12 @@
     gap: 1.5rem;
     align-items: center;
     margin: 1rem;
-    border-radius: 1rem;
-    -webkit-box-shadow: 1px 1px 9px -7px rgba(19, 32, 70, 1);
-    -moz-box-shadow: 1px 1px 9px -7px rgba(19, 32, 70, 1);
-    box-shadow: 1px 1px 9px -7px rgba(19, 32, 70, 1);
+    background: rgba(1, 195, 142, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
   }
 
   .cardContainer:hover {
